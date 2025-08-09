@@ -1,6 +1,6 @@
 scoreboard players set #forceload.anchor.add_signature.FUNCTION_STAGE letsload-io 0
 execute unless entity @s[type=minecraft:marker,tag=letsload-forceload_anchor] run return run function letsload:forceload/anchor/_return_fail
-data modify storage letsload:internal dummy set value "UNKNOWN"
+data modify storage letsload:internal dummy set value ""
 data modify storage letsload:internal dummy set string storage letsload:io forceload.anchor.signature
 data modify storage letsload:io forceload.anchor.signature set from storage letsload:internal dummy
 
