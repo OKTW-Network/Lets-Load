@@ -25,5 +25,4 @@ data remove storage letsload:io util.easy_stringify_entity_uuid.separator
 data remove storage letsload:io util.easy_stringify_entity_uuid.prefix
 data remove storage letsload:io util.easy_stringify_entity_uuid.suffix
 
-execute if data storage letsload:io util.easy_stringify_entity_uuid.Result run return 1
-return fail
+return run execute if data storage letsload:io util.easy_stringify_entity_uuid.Result

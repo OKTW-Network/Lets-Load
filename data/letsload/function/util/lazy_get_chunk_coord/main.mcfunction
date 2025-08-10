@@ -19,5 +19,4 @@ data remove storage letsload:io util.lazy_get_chunk_coord.input
 scoreboard players reset #util.lazy_get_chunk_coord.pos_x letsload-internal
 scoreboard players reset #util.lazy_get_chunk_coord.pos_z letsload-internal
 
-execute if data storage letsload:io util.lazy_get_chunk_coord.Result run return 1
-return fail
+return run execute if data storage letsload:io util.lazy_get_chunk_coord.Result

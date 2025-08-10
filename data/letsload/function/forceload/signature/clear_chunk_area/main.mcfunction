@@ -25,4 +25,4 @@ function letsload:forceload/signature/clear_chunk_area/clear/main
 scoreboard players set #forceload.signature.clear_chunk_area.FUNCTION_STAGE letsload-io 3
 function letsload:forceload/signature/clear_chunk_area/_reset_function
 
-return 1
+return run execute unless score #forceload.signature.clear_chunk_area.Result letsload-io matches 0 run scoreboard players get #forceload.signature.clear_chunk_area.Result letsload-io

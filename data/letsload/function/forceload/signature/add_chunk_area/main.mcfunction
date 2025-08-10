@@ -25,4 +25,4 @@ function letsload:forceload/signature/add_chunk_area/add/main
 scoreboard players set #forceload.signature.add_chunk_area.FUNCTION_STAGE letsload-io 3
 function letsload:forceload/signature/add_chunk_area/_reset_function
 
-return 1
+return run execute unless score #forceload.signature.add_chunk_area.Result letsload-io matches 0 run scoreboard players get #forceload.signature.add_chunk_area.Result letsload-io

@@ -1,4 +1,5 @@
 scoreboard players reset #forceload.signature.query_current_pos.Result letsload-io
+
 function letsload:util/get_current_chunk_coord/main
 execute store result score #forceload.signature.query_chunk.chunk_x letsload-io run data get storage letsload:io util.get_current_chunk_coord.Result[0]
 execute store result score #forceload.signature.query_chunk.chunk_z letsload-io run data get storage letsload:io util.get_current_chunk_coord.Result[1]
@@ -7,4 +8,4 @@ execute store success score #forceload.signature.query_current_pos.Result letslo
 
 data remove storage letsload:io forceload.signature.query_current_pos.signature
 
-return run scoreboard players get #forceload.signature.query_current_pos.Result letsload-io
+return run execute unless score #forceload.signature.query_current_pos.Result letsload-io matches 0 run scoreboard players get #forceload.signature.query_current_pos.Result letsload-io

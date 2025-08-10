@@ -7,4 +7,4 @@ execute as @e[type=minecraft:marker,tag=letsload-forceload_anchor] run function 
 
 function letsload:forceload/anchor/_reset_function
 
-return run scoreboard players get #forceload.anchor.bulk_query_signature.Result letsload-io
+return run execute unless score #forceload.anchor.bulk_query_signature.Result letsload-io matches 0 run scoreboard players get #forceload.anchor.bulk_query_signature.Result letsload-io

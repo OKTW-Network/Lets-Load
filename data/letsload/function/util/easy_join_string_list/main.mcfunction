@@ -10,5 +10,4 @@ execute if data storage letsload:io util.easy_join_string_list.input[0] run func
 data remove storage letsload:io util.easy_join_string_list.input
 data remove storage letsload:io util.easy_join_string_list.separator
 
-execute if data storage letsload:io util.easy_join_string_list.Result run return 1
-return fail
+return run execute if data storage letsload:io util.easy_join_string_list.Result

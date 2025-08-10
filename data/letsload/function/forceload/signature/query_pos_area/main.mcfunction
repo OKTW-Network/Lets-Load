@@ -26,4 +26,4 @@ execute store result score #forceload.signature.query_pos_area.Result letsload-i
 scoreboard players set #forceload.signature.query_pos_area.FUNCTION_STAGE letsload-io 3
 function letsload:forceload/signature/query_pos_area/_reset_function
 
-return run scoreboard players get #forceload.signature.query_pos_area.Result letsload-io
+return run execute unless score #forceload.signature.query_pos_area.Result letsload-io matches 0 run scoreboard players get #forceload.signature.query_pos_area.Result letsload-io
