@@ -1,0 +1,2 @@
+function letsload:forceload/signature/remove_pos_area/_reset_function
+return fail

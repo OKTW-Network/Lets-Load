@@ -1,0 +1,2 @@
+function letsload:forceload/signature/remove_chunk/_reset_function
+return fail

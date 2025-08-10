@@ -1,0 +1,2 @@
+function letsload:forceload/signature/remove_current_pos/_reset_function
+return fail
