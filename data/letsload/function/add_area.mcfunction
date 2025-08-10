@@ -5,4 +5,4 @@ $data modify storage letsload:io forceload.add_pos_area.x1 set value $(x1)
 $data modify storage letsload:io forceload.add_pos_area.z1 set value $(z1)
 $data modify storage letsload:io forceload.add_pos_area.x2 set value $(x2)
 $data modify storage letsload:io forceload.add_pos_area.z2 set value $(z2)
-return run function letsload:forceload/add_pos_area/main
+return run function letsload:forceload/signature/add_pos_area/main

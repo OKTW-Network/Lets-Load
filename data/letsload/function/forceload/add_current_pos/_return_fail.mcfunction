@@ -1,2 +1,0 @@
-function letsload:forceload/add_current_pos/_reset_function
-return fail
