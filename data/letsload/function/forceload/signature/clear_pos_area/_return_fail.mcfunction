@@ -1,0 +1,2 @@
+function letsload:forceload/signature/clear_pos_area/_reset_function
+return fail
