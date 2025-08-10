@@ -1,5 +1,5 @@
 scoreboard players set #forceload.signature.remove_chunk_area.FUNCTION_STAGE letsload-io 0
-scoreboard players reset #forceload.signature.remove_chunk_area.result letsload-io
+scoreboard players reset #forceload.signature.remove_chunk_area.Result letsload-io
 execute unless score #forceload.signature.remove_chunk_area.chunk_x1 letsload-io matches -1874999..1874998 run return run function letsload:forceload/signature/remove_chunk_area/_return_fail
 execute unless score #forceload.signature.remove_chunk_area.chunk_z1 letsload-io matches -1874999..1874998 run return run function letsload:forceload/signature/remove_chunk_area/_return_fail
 execute unless score #forceload.signature.remove_chunk_area.chunk_x2 letsload-io matches -1874999..1874998 run return run function letsload:forceload/signature/remove_chunk_area/_return_fail

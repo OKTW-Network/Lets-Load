@@ -1,7 +1,7 @@
 scoreboard players reset #forceload.signature.query_current_pos.Result letsload-io
 function letsload:util/get_current_chunk_coord/main
-execute store result score #forceload.signature.query_chunk.chunk_x letsload-io run data get storage letsload:io util.get_current_chunk_coord.result[0]
-execute store result score #forceload.signature.query_chunk.chunk_z letsload-io run data get storage letsload:io util.get_current_chunk_coord.result[1]
+execute store result score #forceload.signature.query_chunk.chunk_x letsload-io run data get storage letsload:io util.get_current_chunk_coord.Result[0]
+execute store result score #forceload.signature.query_chunk.chunk_z letsload-io run data get storage letsload:io util.get_current_chunk_coord.Result[1]
 data modify storage letsload:io forceload.signature.query_chunk.signature set from storage letsload:io forceload.signature.query_current_pos.signature
 execute store success score #forceload.signature.query_current_pos.Result letsload-io run function letsload:forceload/signature/query_chunk/main
 
