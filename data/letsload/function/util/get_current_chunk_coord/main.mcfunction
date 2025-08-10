@@ -2,7 +2,7 @@ data remove storage letsload:io util.get_current_chunk_coord.result
 scoreboard players reset #util.get_current_chunk_coord.result.x letsload-io
 scoreboard players reset #util.get_current_chunk_coord.result.z letsload-io
 
-execute positioned ~ 0 ~ align xyz summon minecraft:marker run function letsload:util/get_current_chunk_coord/_get_pos
+execute positioned ~ 0 ~ align xyz summon minecraft:marker run function letsload:util/get_current_chunk_coord/get_pos
 
 data modify storage letsload:io util.get_current_chunk_coord.result set value [0,0]
 execute if score #util.get_current_chunk_coord.pos_x letsload-internal matches ..-1 run scoreboard players remove #util.get_current_chunk_coord.pos_x letsload-internal 1

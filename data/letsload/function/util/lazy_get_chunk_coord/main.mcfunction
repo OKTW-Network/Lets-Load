@@ -4,7 +4,7 @@ scoreboard players reset #util.lazy_get_chunk_coord.result.x letsload-io
 scoreboard players reset #util.lazy_get_chunk_coord.result.z letsload-io
 
 scoreboard players set #util.lazy_get_chunk_coord.FUNCTION_STAGE letsload-io 1
-$execute positioned $(x) $(y) $(z) positioned ~ 0 ~ align xyz summon minecraft:marker run function letsload:util/lazy_get_chunk_coord/_get_pos
+$execute positioned $(x) $(y) $(z) positioned ~ 0 ~ align xyz summon minecraft:marker run function letsload:util/lazy_get_chunk_coord/get_pos
 
 scoreboard players set #util.lazy_get_chunk_coord.FUNCTION_STAGE letsload-io 2
 data modify storage letsload:io util.lazy_get_chunk_coord.result set value [0,0]

@@ -6,4 +6,4 @@ function letsload:util/lazy_join_string with storage letsload:internal dummy
 data modify storage letsload:io util.easy_join_string_list.result set from storage letsload:io util.lazy_join_string.result
 
 data remove storage letsload:io util.easy_join_string_list.input[0]
-execute if data storage letsload:io util.easy_join_string_list.input[0] run function letsload:util/easy_join_string_list/_join
+execute if data storage letsload:io util.easy_join_string_list.input[0] run function letsload:util/easy_join_string_list/join

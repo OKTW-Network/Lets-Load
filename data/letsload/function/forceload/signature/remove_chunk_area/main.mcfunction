@@ -20,7 +20,7 @@ execute unless score #1 temp matches -256..-1 unless score #1 temp matches 1..25
 scoreboard players set #forceload.signature.remove_chunk_area.FUNCTION_STAGE letsload-io 2
 scoreboard players operation #forceload.signature.remove_chunk_area.remove_chunk_x letsload-internal = #forceload.signature.remove_chunk_area.chunk_x1 letsload-internal
 scoreboard players operation #forceload.signature.remove_chunk_area.remove_chunk_z letsload-internal = #forceload.signature.remove_chunk_area.chunk_z1 letsload-internal
-function letsload:forceload/signature/remove_chunk_area/_remove/main
+function letsload:forceload/signature/remove_chunk_area/remove/main
 
 scoreboard players set #forceload.signature.remove_chunk_area.FUNCTION_STAGE letsload-io 3
 function letsload:forceload/signature/remove_chunk_area/_reset_function
