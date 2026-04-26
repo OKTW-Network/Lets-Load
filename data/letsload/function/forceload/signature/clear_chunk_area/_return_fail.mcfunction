@@ -1,2 +1,0 @@
-function letsload:forceload/signature/clear_chunk_area/_reset_function
-return fail

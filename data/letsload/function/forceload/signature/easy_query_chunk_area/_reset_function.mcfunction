@@ -1,0 +1,3 @@
+scoreboard players reset forceload.signature.easy_query_chunk_area.query_chunk_x letsload-internal
+scoreboard players reset forceload.signature.easy_query_chunk_area.query_chunk_z letsload-internal
+function letsload:forceload/signature/_reset_function

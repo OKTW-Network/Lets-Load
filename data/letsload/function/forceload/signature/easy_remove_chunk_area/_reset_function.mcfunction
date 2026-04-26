@@ -1,0 +1,3 @@
+scoreboard players reset #request.easy_remove_chunk_area.remove_chunk_x letsload-internal
+scoreboard players reset #request.easy_remove_chunk_area.remove_chunk_z letsload-internal
+function letsload:forceload/signature/_reset_function

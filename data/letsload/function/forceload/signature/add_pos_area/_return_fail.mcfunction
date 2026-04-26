@@ -1,2 +1,0 @@
-function letsload:forceload/signature/add_pos_area/_reset_function
-return fail

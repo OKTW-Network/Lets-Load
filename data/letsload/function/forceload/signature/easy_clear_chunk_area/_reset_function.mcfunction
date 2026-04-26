@@ -1,0 +1,3 @@
+scoreboard players reset #forceload.signature.easy_clear_chunk_area.clear_chunk_x letsload-internal
+scoreboard players reset #forceload.signature.easy_clear_chunk_area.clear_chunk_z letsload-internal
+function letsload:forceload/signature/_reset_function

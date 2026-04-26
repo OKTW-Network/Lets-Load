@@ -1,6 +1,8 @@
 {
   "pack": {
     "description": "Try to solve the /forceload conflict.",
-    "pack_format": 81
+    "min_format": [94,1],
+    "max_format": [94,1],
+    "pack_format": 94
   }
 }

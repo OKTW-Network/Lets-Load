@@ -1,0 +1,15 @@
+data remove storage letsload:io forceload.signature.Input.namespace
+data remove storage letsload:io forceload.signature.Input.signature
+scoreboard players reset #forceload.signature.Input.pos_x letsload-io
+scoreboard players reset #forceload.signature.Input.pos_z letsload-io
+scoreboard players reset #forceload.signature.Input.pos_x1 letsload-io
+scoreboard players reset #forceload.signature.Input.pos_z1 letsload-io
+scoreboard players reset #forceload.signature.Input.pos_x2 letsload-io
+scoreboard players reset #forceload.signature.Input.pos_z2 letsload-io
+scoreboard players reset #forceload.signature.Input.chunk_x letsload-io
+scoreboard players reset #forceload.signature.Input.chunk_z letsload-io
+scoreboard players reset #forceload.signature.Input.chunk_x1 letsload-io
+scoreboard players reset #forceload.signature.Input.chunk_z1 letsload-io
+scoreboard players reset #forceload.signature.Input.chunk_x2 letsload-io
+scoreboard players reset #forceload.signature.Input.chunk_z2 letsload-io
+scoreboard players reset #forceload.signature.Option.ignore_namespace letsload-io
