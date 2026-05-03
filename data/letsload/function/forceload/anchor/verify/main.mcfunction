@@ -1,6 +1,6 @@
 scoreboard players set #forceload.anchor.verify.FUNCTION_STAGE letsload-io 0
 scoreboard players reset #forceload.anchor.verify.Result letsload-io
-execute unless entity @s[type=minecraft:marker] run return fail
+execute unless entity @s[tag=letsload.forceload.anchor,type=minecraft:marker] run return fail
 
 scoreboard players set #forceload.anchor.verify.FUNCTION_STAGE letsload-io 1
 scoreboard players set #forceload.anchor.verify.Result letsload-io 0
