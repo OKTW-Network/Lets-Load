@@ -1,6 +1,6 @@
 scoreboard players set #forceload.anchor.clear_registry.FUNCTION_STAGE letsload-io 0
 scoreboard players reset #forceload.anchor.clear_registry.Result letsload-io
-execute unless entity @s[type=minecraft:marker,tag=letsload.forceload.anchor] run return fail
+execute unless entity @s[tag=letsload.forceload.anchor,type=minecraft:marker] run return fail
 
 scoreboard players set #forceload.anchor.clear_registry.FUNCTION_STAGE letsload-io 1
 execute store result score #forceload.anchor.clear_registry.Result letsload-io run data remove entity @s data."letsload:forceload_anchor".registry[]
